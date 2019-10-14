@@ -7,15 +7,27 @@
         <a href="/about-me.html">About Me</a>
         <img src="/Puppy-Koda.jpg" alt="Puppy-Koda">            
         <div>
-        <div id="firstName" class="firstName">First Name</div>
+        <div class="first-name">First Name</div>
         <input type="text" name="firstName" id="firstName">
-        <div id=lastName class="lastName">Last Name</div>
+        <div class="last-name">Last Name</div>
         <input type="text" name="lastName" id="lastName">
-        <div id="age" class="age">Age</div>
+        <div class="age" class="age">Age</div>
         <input type="number" name="age" id="age">
         </div>
         <input type="radio" name="gender" value="gender">Male
         <input type="radio" name="gender" value="gender">Female
         <input type="radio" name="gender" value="gender">Other
     </body>
+    
+    <style>
+        .first-name { color: red;}
+        .last-name { color: blue;}
+        .age { color: purple;}
+        .first-name:hover { color: blue;}
+        .last-name:hover { color: red;}
+        .age:hover { color: red;}
+        .first-name {font-size: 22px;}
+        .last-name {font-size: 22px;}
+        .age {font-size: 22px;}
+    </style>
 </html>
